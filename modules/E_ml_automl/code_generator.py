@@ -3,6 +3,28 @@ from __future__ import annotations
 import json
 
 
+_PREPROCESSING_SNIPPET = '''
+# --- Automatic Preprocessing ---
+# Drop columns that are mostly unique strings (URLs, IDs, Names, Descriptions)
+for col in df.select_dtypes(include=['object', 'string', 'category']).columns:
+    if col == target_col: continue
+    uniques = df[col].nunique()
+    if uniques > 100 or any(k in col.lower() for k in ['url', 'uri', 'id', 'description', 'title', 'artist', 'track']):
+        df.drop(columns=[col], inplace=True)
+
+# Label encode remaining categorical columns
+from sklearn.preprocessing import LabelEncoder
+for col in df.select_dtypes(include=['object', 'string', 'category']).columns:
+    if col != target_col:
+        df[col] = LabelEncoder().fit_transform(df[col].astype(str))
+
+# Handle missing values
+df.fillna(df.median(numeric_only=True), inplace=True)
+df.fillna(0, inplace=True) 
+# -------------------------------
+'''
+
+
 def _notebook_from_source(title: str, source: str) -> str:
     nb = {
         "cells": [
@@ -91,6 +113,7 @@ print("Ready to train image model for", dataset_name)
 '''
     elif task_family == "tabular_regression":
         py_source = f'''import pandas as pd
+import numpy as np
 from sklearn.model_selection import train_test_split
 from xgboost import XGBRegressor
 from sklearn.metrics import mean_squared_error
@@ -104,6 +127,9 @@ data_path = r"{preview_file}"
 
 df = pd.read_csv(data_path)
 target_col = df.columns[-1]
+
+{_PREPROCESSING_SNIPPET}
+
 X = df.drop(columns=[target_col])
 y = df[target_col]
 
@@ -118,7 +144,7 @@ model = XGBRegressor(
 
 model.fit(X_train, y_train)
 preds = model.predict(X_test)
-rmse = mean_squared_error(y_test, preds, squared=False)
+rmse = np.sqrt(mean_squared_error(y_test, preds))
 print("RMSE:", rmse)
 '''
     else:
@@ -156,6 +182,9 @@ data_path = r"{preview_file}"
 
 df = pd.read_csv(data_path)
 target_col = df.columns[-1]
+
+{_PREPROCESSING_SNIPPET}
+
 X = df.drop(columns=[target_col])
 y = df[target_col]
 

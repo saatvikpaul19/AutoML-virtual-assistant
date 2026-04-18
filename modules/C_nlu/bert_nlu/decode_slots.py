@@ -63,7 +63,7 @@ def decode_slots(tokens: list[str], slot_ids) -> dict[str, str]:
     current_slot: str | None = None
     current_tokens: list[str] = []
 
-    for token, slot_id in zip(tokens, slot_ids):
+    for i, (token, slot_id) in enumerate(zip(tokens, slot_ids)):
         if token in _SKIP_TOKENS:
             # Flush any open slot
             if current_slot and current_tokens:
@@ -78,18 +78,32 @@ def decode_slots(tokens: list[str], slot_ids) -> dict[str, str]:
             # Flush previous slot
             if current_slot and current_tokens:
                 slots[current_slot] = _join_tokens(current_tokens)
+            
             # Start new slot
             current_slot   = label[2:]
             current_tokens = [token]
+            
+            # HEURISTIC for numeric slots: Look back for missed prefixes like "0." in "0.01"
+            if current_slot in {
+                "LEARNING_RATE", "BATCH_SIZE", "EPOCHS", "LAYERS", "TIMER_DURATION", "RATIO",
+                "SPLIT_RATIO" # ensure consistency with integration_adapter keys
+            }:
+                # Look back at most 3 tokens for missed digits or dots labeled O
+                for j in range(i - 1, max(-1, i - 4), -1):
+                    prev_tok = tokens[j]
+                    prev_lab = id2slot[int(slot_ids[j])]
+                    if prev_lab == "O" and (prev_tok == "." or prev_tok.isdigit() or _is_subword(prev_tok)):
+                        current_tokens.insert(0, prev_tok)
+                    else:
+                        break
 
         elif label.startswith("I-") and current_slot == label[2:]:
             # Continuation — append
             current_tokens.append(token)
 
-        elif current_slot and _is_subword(token):
-            # Subword continuation even if labeled O (tokenisation artefact)
-            # This helps keep "0.001" → "0", ".", "##001" together if the
-            # "." token gets labelled O accidentally.
+        elif current_slot and (_is_subword(token) or token == "." or token.isdigit()):
+            # Numeric or subword continuation even if labeled O (tokenisation artefact)
+            # This helps keep "0.01" -> "0", ".", "01" together even if labels are mixed.
             current_tokens.append(token)
 
         else:

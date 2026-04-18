@@ -5,6 +5,7 @@ from datetime import datetime
 import math
 import subprocess
 import os
+import sys
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -27,10 +28,14 @@ def run_generated_experiment(state: dict) -> dict:
     # Actually run the code for authentic ML execution
     env = os.environ.copy()
     try:
-        proc = subprocess.run(["python", str(py_path.resolve())], capture_output=True, text=True, env=env)
+        # Use sys.executable to ensure we use the same python interpreter (and venv) as the main app
+        proc = subprocess.run([sys.executable, str(py_path.resolve())], capture_output=True, text=True, env=env)
         console_out = proc.stdout + "\n" + proc.stderr
+        
+        if proc.returncode != 0:
+            console_out = f"Execution failed (return code {proc.returncode}):\n" + console_out
     except Exception as e:
-        console_out = f"Execution failed: {str(e)}"
+        console_out = f"Internal execution exception: {str(e)}"
         
     epochs = max(3, int(state.get("epochs_total", 10)))
     lr = float(state.get("learning_rate", 0.001))
