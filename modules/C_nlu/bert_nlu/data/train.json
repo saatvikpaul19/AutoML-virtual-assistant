@@ -1,0 +1,10612 @@
+[
+  {
+    "intent": "greetings",
+    "text": "hi",
+    "tokens": [
+      "hi"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "mute",
+    "tokens": [
+      "mute"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "search for house prices dataset",
+    "tokens": [
+      "search",
+      "for",
+      "house",
+      "prices",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY",
+      "O"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "say that again",
+    "tokens": [
+      "say",
+      "that",
+      "again"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "execute",
+    "tokens": [
+      "execute"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load me the iris",
+    "tokens": [
+      "load",
+      "me",
+      "the",
+      "iris"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "give me the results",
+    "tokens": [
+      "give",
+      "me",
+      "the",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "execute",
+    "tokens": [
+      "execute"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "find competitions",
+    "tokens": [
+      "find",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "alarm for 5 minutes",
+    "tokens": [
+      "alarm",
+      "for",
+      "5",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "current status",
+    "tokens": [
+      "current",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load boston data",
+    "tokens": [
+      "load",
+      "boston",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "execute code",
+    "tokens": [
+      "execute",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "show code",
+    "tokens": [
+      "show",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "find dataset sentiment analysis",
+    "tokens": [
+      "find",
+      "dataset",
+      "sentiment",
+      "analysis"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "i want 15 epochs",
+    "tokens": [
+      "i",
+      "want",
+      "15",
+      "epochs"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-EPOCHS",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "search for fraud detection dataset",
+    "tokens": [
+      "search",
+      "for",
+      "fraud",
+      "detection",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "i want to use logistic regression for training",
+    "tokens": [
+      "i",
+      "want",
+      "to",
+      "use",
+      "logistic",
+      "regression",
+      "for",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set the learning rate to 0.01",
+    "tokens": [
+      "set",
+      "the",
+      "learning",
+      "rate",
+      "to",
+      "0.01"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "timer for pasta for 2 minutes",
+    "tokens": [
+      "timer",
+      "for",
+      "pasta",
+      "for",
+      "2",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it storm in Berlin",
+    "tokens": [
+      "does",
+      "it",
+      "storm",
+      "in",
+      "Berlin"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "thanks",
+    "tokens": [
+      "thanks"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "epochs 15",
+    "tokens": [
+      "epochs",
+      "15"
+    ],
+    "slot_labels": [
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "start a 5 minutes timer",
+    "tokens": [
+      "start",
+      "a",
+      "5",
+      "minutes",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "buy my groceries",
+    "tokens": [
+      "buy",
+      "my",
+      "groceries"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "back to sleep",
+    "tokens": [
+      "back",
+      "to",
+      "sleep"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "show commands",
+    "tokens": [
+      "show",
+      "commands"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "quiet",
+    "tokens": [
+      "quiet"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "repeat",
+    "tokens": [
+      "repeat"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "run xgboost model",
+    "tokens": [
+      "run",
+      "xgboost",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "timer 30 seconds",
+    "tokens": [
+      "timer",
+      "30",
+      "seconds"
+    ],
+    "slot_labels": [
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "go ahead and train",
+    "tokens": [
+      "go",
+      "ahead",
+      "and",
+      "train"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "run 5 epochs",
+    "tokens": [
+      "run",
+      "5",
+      "epochs"
+    ],
+    "slot_labels": [
+      "O",
+      "B-EPOCHS",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Vancouver",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Vancouver"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "go ahead and train",
+    "tokens": [
+      "go",
+      "ahead",
+      "and",
+      "train"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "execute the experiment",
+    "tokens": [
+      "execute",
+      "the",
+      "experiment"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "halt training",
+    "tokens": [
+      "halt",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "show status",
+    "tokens": [
+      "show",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set learning rate to 0.0001",
+    "tokens": [
+      "set",
+      "learning",
+      "rate",
+      "to",
+      "0.0001"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "what did you say",
+    "tokens": [
+      "what",
+      "did",
+      "you",
+      "say"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load wine dataset",
+    "tokens": [
+      "load",
+      "wine",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "unpause training",
+    "tokens": [
+      "unpause",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "could you turn on the lights",
+    "tokens": [
+      "could",
+      "you",
+      "turn",
+      "on",
+      "the",
+      "lights"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "weather in New York today",
+    "tokens": [
+      "weather",
+      "in",
+      "New",
+      "York",
+      "today"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_LOCATION",
+      "I-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "train 30 epochs",
+    "tokens": [
+      "train",
+      "30",
+      "epochs"
+    ],
+    "slot_labels": [
+      "O",
+      "B-EPOCHS",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load boston",
+    "tokens": [
+      "load",
+      "boston"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "select cnn model",
+    "tokens": [
+      "select",
+      "cnn",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set the learning rate to 5e-5",
+    "tokens": [
+      "set",
+      "the",
+      "learning",
+      "rate",
+      "to",
+      "5e-5"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "continue training",
+    "tokens": [
+      "continue",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "get model weights",
+    "tokens": [
+      "get",
+      "model",
+      "weights"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "book my a flight",
+    "tokens": [
+      "book",
+      "my",
+      "a",
+      "flight"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "kill training",
+    "tokens": [
+      "kill",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "run training",
+    "tokens": [
+      "run",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load cifar10 dataset from kaggle",
+    "tokens": [
+      "load",
+      "cifar10",
+      "dataset",
+      "from",
+      "kaggle"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "is it sunnyy in Vancouver today",
+    "tokens": [
+      "is",
+      "it",
+      "sunnyy",
+      "in",
+      "Vancouver",
+      "today"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "put training on hold",
+    "tokens": [
+      "put",
+      "training",
+      "on",
+      "hold"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "search for fraud detection dataset",
+    "tokens": [
+      "search",
+      "for",
+      "fraud",
+      "detection",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "search for sentiment analysis dataset",
+    "tokens": [
+      "search",
+      "for",
+      "sentiment",
+      "analysis",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "switch to xgboost model",
+    "tokens": [
+      "switch",
+      "to",
+      "xgboost",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "good bye",
+    "tokens": [
+      "good",
+      "bye"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "find dataset stock prediction",
+    "tokens": [
+      "find",
+      "dataset",
+      "stock",
+      "prediction"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "put training on hold",
+    "tokens": [
+      "put",
+      "training",
+      "on",
+      "hold"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "what are the results",
+    "tokens": [
+      "what",
+      "are",
+      "the",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "timer for workout for 45 minutes",
+    "tokens": [
+      "timer",
+      "for",
+      "workout",
+      "for",
+      "45",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "use the boston data",
+    "tokens": [
+      "use",
+      "the",
+      "boston",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set learning rate to 5e-5",
+    "tokens": [
+      "set",
+      "learning",
+      "rate",
+      "to",
+      "5e-5"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "hello",
+    "tokens": [
+      "hello"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "sleep mode",
+    "tokens": [
+      "sleep",
+      "mode"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "set a cooking timer for 2 minutes",
+    "tokens": [
+      "set",
+      "a",
+      "cooking",
+      "timer",
+      "for",
+      "2",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "go ahead and train",
+    "tokens": [
+      "go",
+      "ahead",
+      "and",
+      "train"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "thanks a lot",
+    "tokens": [
+      "thanks",
+      "a",
+      "lot"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "learning rate 1e-4",
+    "tokens": [
+      "learning",
+      "rate",
+      "1e-4"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "suggest a model",
+    "tokens": [
+      "suggest",
+      "a",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "stop training temporarily",
+    "tokens": [
+      "stop",
+      "training",
+      "temporarily"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "switch to xgboost model",
+    "tokens": [
+      "switch",
+      "to",
+      "xgboost",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "show help",
+    "tokens": [
+      "show",
+      "help"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "stop training temporarily",
+    "tokens": [
+      "stop",
+      "training",
+      "temporarily"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "can you wash the dishes",
+    "tokens": [
+      "can",
+      "you",
+      "wash",
+      "the",
+      "dishes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "take care",
+    "tokens": [
+      "take",
+      "care"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "switch to resnet",
+    "tokens": [
+      "switch",
+      "to",
+      "resnet"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-MODEL_NAME"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "can you turn on the lights",
+    "tokens": [
+      "can",
+      "you",
+      "turn",
+      "on",
+      "the",
+      "lights"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "save the model",
+    "tokens": [
+      "save",
+      "the",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "halt training",
+    "tokens": [
+      "halt",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "alarm for 15 minutes",
+    "tokens": [
+      "alarm",
+      "for",
+      "15",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "run it",
+    "tokens": [
+      "run",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "alarm for 1 hour",
+    "tokens": [
+      "alarm",
+      "for",
+      "1",
+      "hour"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "begin the training",
+    "tokens": [
+      "begin",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load the code",
+    "tokens": [
+      "load",
+      "the",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "which model is best",
+    "tokens": [
+      "which",
+      "model",
+      "is",
+      "best"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "stop training",
+    "tokens": [
+      "stop",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "start a 15 minutes timer",
+    "tokens": [
+      "start",
+      "a",
+      "15",
+      "minutes",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "how is training going",
+    "tokens": [
+      "how",
+      "is",
+      "training",
+      "going"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "stop timer",
+    "tokens": [
+      "stop",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "save the model",
+    "tokens": [
+      "save",
+      "the",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "clean the house",
+    "tokens": [
+      "clean",
+      "the",
+      "house"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "appreciate it",
+    "tokens": [
+      "appreciate",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "download weights",
+    "tokens": [
+      "download",
+      "weights"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "train the model",
+    "tokens": [
+      "train",
+      "the",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "go",
+    "tokens": [
+      "go"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "get model weights",
+    "tokens": [
+      "get",
+      "model",
+      "weights"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "hi",
+    "tokens": [
+      "hi"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "halt training",
+    "tokens": [
+      "halt",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "batch size 16",
+    "tokens": [
+      "batch",
+      "size",
+      "16"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load the boston data",
+    "tokens": [
+      "load",
+      "the",
+      "boston",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "change lr to 5e-5",
+    "tokens": [
+      "change",
+      "lr",
+      "to",
+      "5e-5"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "fetch code",
+    "tokens": [
+      "fetch",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "could you book a flight",
+    "tokens": [
+      "could",
+      "you",
+      "book",
+      "a",
+      "flight"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "pause listening",
+    "tokens": [
+      "pause",
+      "listening"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "get runnable code",
+    "tokens": [
+      "get",
+      "runnable",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "hold training",
+    "tokens": [
+      "hold",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "kill training",
+    "tokens": [
+      "kill",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "catch you later",
+    "tokens": [
+      "catch",
+      "you",
+      "later"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "import wine data",
+    "tokens": [
+      "import",
+      "wine",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "go ahead and train",
+    "tokens": [
+      "go",
+      "ahead",
+      "and",
+      "train"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "choose resnet for training",
+    "tokens": [
+      "choose",
+      "resnet",
+      "for",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "set epochs to 5",
+    "tokens": [
+      "set",
+      "epochs",
+      "to",
+      "5"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "what competitions are there",
+    "tokens": [
+      "what",
+      "competitions",
+      "are",
+      "there"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "clean the data",
+    "tokens": [
+      "clean",
+      "the",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Montreal today",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Montreal",
+      "today"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "what is the timer at",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "timer",
+      "at"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "good bye",
+    "tokens": [
+      "good",
+      "bye"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "continue training",
+    "tokens": [
+      "continue",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set lr = 0.001",
+    "tokens": [
+      "set",
+      "lr",
+      "=",
+      "0.001"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "fetch code",
+    "tokens": [
+      "fetch",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "epochs 50",
+    "tokens": [
+      "epochs",
+      "50"
+    ],
+    "slot_labels": [
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it cloudy in Sydney",
+    "tokens": [
+      "does",
+      "it",
+      "cloudy",
+      "in",
+      "Sydney"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "preprocess data",
+    "tokens": [
+      "preprocess",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "thank you",
+    "tokens": [
+      "thank",
+      "you"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set lr = 0.001",
+    "tokens": [
+      "set",
+      "lr",
+      "=",
+      "0.001"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "fix missing data",
+    "tokens": [
+      "fix",
+      "missing",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "kill training",
+    "tokens": [
+      "kill",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "that is helpful thanks",
+    "tokens": [
+      "that",
+      "is",
+      "helpful",
+      "thanks"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "find dataset stock prediction",
+    "tokens": [
+      "find",
+      "dataset",
+      "stock",
+      "prediction"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good afternoon",
+    "tokens": [
+      "good",
+      "afternoon"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "clear timer",
+    "tokens": [
+      "clear",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "train 20 epochs",
+    "tokens": [
+      "train",
+      "20",
+      "epochs"
+    ],
+    "slot_labels": [
+      "O",
+      "B-EPOCHS",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "standby",
+    "tokens": [
+      "standby"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "show training status",
+    "tokens": [
+      "show",
+      "training",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "suggest a model",
+    "tokens": [
+      "suggest",
+      "a",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "start the training",
+    "tokens": [
+      "start",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "forecast for Toronto tomorrow",
+    "tokens": [
+      "forecast",
+      "for",
+      "Toronto",
+      "tomorrow"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "set model to logistic regression for training",
+    "tokens": [
+      "set",
+      "model",
+      "to",
+      "logistic",
+      "regression",
+      "for",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "list competitions",
+    "tokens": [
+      "list",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "clean the dataset",
+    "tokens": [
+      "clean",
+      "the",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "show accuracy",
+    "tokens": [
+      "show",
+      "accuracy"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "what hyperparameters should i use",
+    "tokens": [
+      "what",
+      "hyperparameters",
+      "should",
+      "i",
+      "use"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "change lr to 0.01",
+    "tokens": [
+      "change",
+      "lr",
+      "to",
+      "0.01"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "run 20 epochs",
+    "tokens": [
+      "run",
+      "20",
+      "epochs"
+    ],
+    "slot_labels": [
+      "O",
+      "B-EPOCHS",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Vancouver",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Vancouver"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "set epochs to 5",
+    "tokens": [
+      "set",
+      "epochs",
+      "to",
+      "5"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "show competitions",
+    "tokens": [
+      "show",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "import wine dataset from kaggle",
+    "tokens": [
+      "import",
+      "wine",
+      "dataset",
+      "from",
+      "kaggle"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "turn off mic",
+    "tokens": [
+      "turn",
+      "off",
+      "mic"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "which model is best",
+    "tokens": [
+      "which",
+      "model",
+      "is",
+      "best"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "keep going",
+    "tokens": [
+      "keep",
+      "going"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "what are good hyperparameters",
+    "tokens": [
+      "what",
+      "are",
+      "good",
+      "hyperparameters"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "what are good hyperparameters",
+    "tokens": [
+      "what",
+      "are",
+      "good",
+      "hyperparameters"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set learning rate to 0.01",
+    "tokens": [
+      "set",
+      "learning",
+      "rate",
+      "to",
+      "0.01"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "hi mycroft",
+    "tokens": [
+      "hi",
+      "mycroft"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "say that again",
+    "tokens": [
+      "say",
+      "that",
+      "again"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "find dataset sentiment analysis",
+    "tokens": [
+      "find",
+      "dataset",
+      "sentiment",
+      "analysis"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "many thanks",
+    "tokens": [
+      "many",
+      "thanks"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "sleep mode",
+    "tokens": [
+      "sleep",
+      "mode"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "is it fogy in Paris today",
+    "tokens": [
+      "is",
+      "it",
+      "fogy",
+      "in",
+      "Paris",
+      "today"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "halt training",
+    "tokens": [
+      "halt",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load the code",
+    "tokens": [
+      "load",
+      "the",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "fetch wine",
+    "tokens": [
+      "fetch",
+      "wine"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "batch 16",
+    "tokens": [
+      "batch",
+      "16"
+    ],
+    "slot_labels": [
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "current accuracy",
+    "tokens": [
+      "current",
+      "accuracy"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "appreciate it",
+    "tokens": [
+      "appreciate",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Berlin",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Berlin"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load corresponding code",
+    "tokens": [
+      "load",
+      "corresponding",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "is training done",
+    "tokens": [
+      "is",
+      "training",
+      "done"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "give me the results",
+    "tokens": [
+      "give",
+      "me",
+      "the",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set lr = 0.001",
+    "tokens": [
+      "set",
+      "lr",
+      "=",
+      "0.001"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "fetch cifar10 data",
+    "tokens": [
+      "fetch",
+      "cifar10",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "show commands",
+    "tokens": [
+      "show",
+      "commands"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "run it",
+    "tokens": [
+      "run",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "show competitions",
+    "tokens": [
+      "show",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "show training status",
+    "tokens": [
+      "show",
+      "training",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "current status",
+    "tokens": [
+      "current",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "is it snowy in Toronto tomorrow",
+    "tokens": [
+      "is",
+      "it",
+      "snowy",
+      "in",
+      "Toronto",
+      "tomorrow"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "show timer",
+    "tokens": [
+      "show",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "resume the training",
+    "tokens": [
+      "resume",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "please buy tickets",
+    "tokens": [
+      "please",
+      "buy",
+      "tickets"
+    ],
+    "slot_labels": [
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "train with random forest",
+    "tokens": [
+      "train",
+      "with",
+      "random",
+      "forest"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load the code",
+    "tokens": [
+      "load",
+      "the",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "begin training",
+    "tokens": [
+      "begin",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "suggest a model",
+    "tokens": [
+      "suggest",
+      "a",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "resume the training",
+    "tokens": [
+      "resume",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "set a cooking timer for 10 minutes",
+    "tokens": [
+      "set",
+      "a",
+      "cooking",
+      "timer",
+      "for",
+      "10",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "how much time is left",
+    "tokens": [
+      "how",
+      "much",
+      "time",
+      "is",
+      "left"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "that is helpful thanks",
+    "tokens": [
+      "that",
+      "is",
+      "helpful",
+      "thanks"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "set the batch to 64",
+    "tokens": [
+      "set",
+      "the",
+      "batch",
+      "to",
+      "64"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "search dataset fraud detection",
+    "tokens": [
+      "search",
+      "dataset",
+      "fraud",
+      "detection"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "suggest parameters",
+    "tokens": [
+      "suggest",
+      "parameters"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "can you play music",
+    "tokens": [
+      "can",
+      "you",
+      "play",
+      "music"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "awesome thank you",
+    "tokens": [
+      "awesome",
+      "thank",
+      "you"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load the notebook",
+    "tokens": [
+      "load",
+      "the",
+      "notebook"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "thanks",
+    "tokens": [
+      "thanks"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "set epochs to 50",
+    "tokens": [
+      "set",
+      "epochs",
+      "to",
+      "50"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "open cifar10",
+    "tokens": [
+      "open",
+      "cifar10"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "fetch iris dataset from kaggle",
+    "tokens": [
+      "fetch",
+      "iris",
+      "dataset",
+      "from",
+      "kaggle"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "resume training",
+    "tokens": [
+      "resume",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load the cifar10",
+    "tokens": [
+      "load",
+      "the",
+      "cifar10"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "what is the accuracy",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "accuracy"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "find dataset fraud detection",
+    "tokens": [
+      "find",
+      "dataset",
+      "fraud",
+      "detection"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "see ya",
+    "tokens": [
+      "see",
+      "ya"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in New York",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "New",
+      "York"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION",
+      "I-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "run random forest model",
+    "tokens": [
+      "run",
+      "random",
+      "forest",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "use breast cancer dataset from kaggle",
+    "tokens": [
+      "use",
+      "breast",
+      "cancer",
+      "dataset",
+      "from",
+      "kaggle"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "I-DATASET_NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "train for 20 epochs",
+    "tokens": [
+      "train",
+      "for",
+      "20",
+      "epochs"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-EPOCHS",
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "show timer",
+    "tokens": [
+      "show",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "search dataset sentiment analysis",
+    "tokens": [
+      "search",
+      "dataset",
+      "sentiment",
+      "analysis"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "run it",
+    "tokens": [
+      "run",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "help",
+    "tokens": [
+      "help"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "check timer",
+    "tokens": [
+      "check",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it sunny in Vancouver",
+    "tokens": [
+      "does",
+      "it",
+      "sunny",
+      "in",
+      "Vancouver"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it rain in Tokyo",
+    "tokens": [
+      "does",
+      "it",
+      "rain",
+      "in",
+      "Tokyo"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "use iris",
+    "tokens": [
+      "use",
+      "iris"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "repeat",
+    "tokens": [
+      "repeat"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "book a flight",
+    "tokens": [
+      "book",
+      "a",
+      "flight"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "please send an email",
+    "tokens": [
+      "please",
+      "send",
+      "an",
+      "email"
+    ],
+    "slot_labels": [
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "update batch size to 64",
+    "tokens": [
+      "update",
+      "batch",
+      "size",
+      "to",
+      "64"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "train the model",
+    "tokens": [
+      "train",
+      "the",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "can you book a table",
+    "tokens": [
+      "can",
+      "you",
+      "book",
+      "a",
+      "table"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "show accuracy",
+    "tokens": [
+      "show",
+      "accuracy"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "hello mycroft",
+    "tokens": [
+      "hello",
+      "mycroft"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "suggest hyperparameters",
+    "tokens": [
+      "suggest",
+      "hyperparameters"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "use 0.05 for lr",
+    "tokens": [
+      "use",
+      "0.05",
+      "for",
+      "lr"
+    ],
+    "slot_labels": [
+      "O",
+      "B-LEARNING_RATE",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "change lr to 0.1",
+    "tokens": [
+      "change",
+      "lr",
+      "to",
+      "0.1"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "take care",
+    "tokens": [
+      "take",
+      "care"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "unpause training",
+    "tokens": [
+      "unpause",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "remove the timer",
+    "tokens": [
+      "remove",
+      "the",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "what do you support",
+    "tokens": [
+      "what",
+      "do",
+      "you",
+      "support"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "resume the training",
+    "tokens": [
+      "resume",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "update batch size to 32",
+    "tokens": [
+      "update",
+      "batch",
+      "size",
+      "to",
+      "32"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "show results",
+    "tokens": [
+      "show",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "which model is best",
+    "tokens": [
+      "which",
+      "model",
+      "is",
+      "best"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "execute",
+    "tokens": [
+      "execute"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "unpause training",
+    "tokens": [
+      "unpause",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "start a 3 minutes timer",
+    "tokens": [
+      "start",
+      "a",
+      "3",
+      "minutes",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "hey mycroft",
+    "tokens": [
+      "hey",
+      "mycroft"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "hi",
+    "tokens": [
+      "hi"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "please do shopping",
+    "tokens": [
+      "please",
+      "do",
+      "shopping"
+    ],
+    "slot_labels": [
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "what hyperparameters should i use",
+    "tokens": [
+      "what",
+      "hyperparameters",
+      "should",
+      "i",
+      "use"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "great thank you",
+    "tokens": [
+      "great",
+      "thank",
+      "you"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "quiet",
+    "tokens": [
+      "quiet"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Paris",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Paris"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "resume the training",
+    "tokens": [
+      "resume",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "good bye",
+    "tokens": [
+      "good",
+      "bye"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "kick off training",
+    "tokens": [
+      "kick",
+      "off",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "use cifar10 dataset",
+    "tokens": [
+      "use",
+      "cifar10",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "batch 32",
+    "tokens": [
+      "batch",
+      "32"
+    ],
+    "slot_labels": [
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "suggest hyperparameters",
+    "tokens": [
+      "suggest",
+      "hyperparameters"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "stop training temporarily",
+    "tokens": [
+      "stop",
+      "training",
+      "temporarily"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "stop listening",
+    "tokens": [
+      "stop",
+      "listening"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "appreciate it",
+    "tokens": [
+      "appreciate",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load the code",
+    "tokens": [
+      "load",
+      "the",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load diabetes data",
+    "tokens": [
+      "load",
+      "diabetes",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "i want 5 epochs",
+    "tokens": [
+      "i",
+      "want",
+      "5",
+      "epochs"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-EPOCHS",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "change lr to 0.05",
+    "tokens": [
+      "change",
+      "lr",
+      "to",
+      "0.05"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "remove the timer",
+    "tokens": [
+      "remove",
+      "the",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "start training",
+    "tokens": [
+      "start",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "can you find a plumber",
+    "tokens": [
+      "can",
+      "you",
+      "find",
+      "a",
+      "plumber"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "begin training",
+    "tokens": [
+      "begin",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "fetch mnist dataset",
+    "tokens": [
+      "fetch",
+      "mnist",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "import cifar10 dataset from kaggle",
+    "tokens": [
+      "import",
+      "cifar10",
+      "dataset",
+      "from",
+      "kaggle"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "tell results",
+    "tokens": [
+      "tell",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good afternoon",
+    "tokens": [
+      "good",
+      "afternoon"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "show accuracy",
+    "tokens": [
+      "show",
+      "accuracy"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "what model should i use",
+    "tokens": [
+      "what",
+      "model",
+      "should",
+      "i",
+      "use"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "many thanks",
+    "tokens": [
+      "many",
+      "thanks"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good afternoon",
+    "tokens": [
+      "good",
+      "afternoon"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "continue training",
+    "tokens": [
+      "continue",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "learning rate 1e-4",
+    "tokens": [
+      "learning",
+      "rate",
+      "1e-4"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "abort training",
+    "tokens": [
+      "abort",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "i want 50 epochs",
+    "tokens": [
+      "i",
+      "want",
+      "50",
+      "epochs"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-EPOCHS",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "which model is best",
+    "tokens": [
+      "which",
+      "model",
+      "is",
+      "best"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "find dataset fraud detection",
+    "tokens": [
+      "find",
+      "dataset",
+      "fraud",
+      "detection"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "launch training",
+    "tokens": [
+      "launch",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "is it rainy in Toronto tomorrow",
+    "tokens": [
+      "is",
+      "it",
+      "rainy",
+      "in",
+      "Toronto",
+      "tomorrow"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "is training done",
+    "tokens": [
+      "is",
+      "training",
+      "done"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "import mnist",
+    "tokens": [
+      "import",
+      "mnist"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "retrieve iris",
+    "tokens": [
+      "retrieve",
+      "iris"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "apply xgboost",
+    "tokens": [
+      "apply",
+      "xgboost"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "i want lr 5e-5",
+    "tokens": [
+      "i",
+      "want",
+      "lr",
+      "5e-5"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "appreciate it",
+    "tokens": [
+      "appreciate",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "call my mom",
+    "tokens": [
+      "call",
+      "my",
+      "mom"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "execute",
+    "tokens": [
+      "execute"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "tell me the results",
+    "tokens": [
+      "tell",
+      "me",
+      "the",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "use 0.0001 for lr",
+    "tokens": [
+      "use",
+      "0.0001",
+      "for",
+      "lr"
+    ],
+    "slot_labels": [
+      "O",
+      "B-LEARNING_RATE",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "quiet",
+    "tokens": [
+      "quiet"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "what is the timer at",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "timer",
+      "at"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "what hyperparameters should i use",
+    "tokens": [
+      "what",
+      "hyperparameters",
+      "should",
+      "i",
+      "use"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "keep going",
+    "tokens": [
+      "keep",
+      "going"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "find dataset stock prediction",
+    "tokens": [
+      "find",
+      "dataset",
+      "stock",
+      "prediction"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "farewell",
+    "tokens": [
+      "farewell"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "alarm for 5 minutes",
+    "tokens": [
+      "alarm",
+      "for",
+      "5",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "how much time is left",
+    "tokens": [
+      "how",
+      "much",
+      "time",
+      "is",
+      "left"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "run experiment",
+    "tokens": [
+      "run",
+      "experiment"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "find dataset image classification",
+    "tokens": [
+      "find",
+      "dataset",
+      "image",
+      "classification"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "suggest a model",
+    "tokens": [
+      "suggest",
+      "a",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "set epochs to 20",
+    "tokens": [
+      "set",
+      "epochs",
+      "to",
+      "20"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "update learning rate to 0.01",
+    "tokens": [
+      "update",
+      "learning",
+      "rate",
+      "to",
+      "0.01"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "pause training",
+    "tokens": [
+      "pause",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "check status",
+    "tokens": [
+      "check",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "start training",
+    "tokens": [
+      "start",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "launch training",
+    "tokens": [
+      "launch",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "go",
+    "tokens": [
+      "go"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "get boston",
+    "tokens": [
+      "get",
+      "boston"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "get model weights",
+    "tokens": [
+      "get",
+      "model",
+      "weights"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "start training now",
+    "tokens": [
+      "start",
+      "training",
+      "now"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "update batch size to 32",
+    "tokens": [
+      "update",
+      "batch",
+      "size",
+      "to",
+      "32"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "what are good hyperparameters",
+    "tokens": [
+      "what",
+      "are",
+      "good",
+      "hyperparameters"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set the learning rate to 0.001",
+    "tokens": [
+      "set",
+      "the",
+      "learning",
+      "rate",
+      "to",
+      "0.001"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "timer for pasta for 5 minutes",
+    "tokens": [
+      "timer",
+      "for",
+      "pasta",
+      "for",
+      "5",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "back to sleep",
+    "tokens": [
+      "back",
+      "to",
+      "sleep"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "show help",
+    "tokens": [
+      "show",
+      "help"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it sunny in New York",
+    "tokens": [
+      "does",
+      "it",
+      "sunny",
+      "in",
+      "New",
+      "York"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION",
+      "I-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "pause the training",
+    "tokens": [
+      "pause",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "what model should i use",
+    "tokens": [
+      "what",
+      "model",
+      "should",
+      "i",
+      "use"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "hey mycroft",
+    "tokens": [
+      "hey",
+      "mycroft"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "start training",
+    "tokens": [
+      "start",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Berlin",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Berlin"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set lr = 0.1",
+    "tokens": [
+      "set",
+      "lr",
+      "=",
+      "0.1"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "update batch size to 64",
+    "tokens": [
+      "update",
+      "batch",
+      "size",
+      "to",
+      "64"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "start a 5 minutes timer",
+    "tokens": [
+      "start",
+      "a",
+      "5",
+      "minutes",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "that is helpful thanks",
+    "tokens": [
+      "that",
+      "is",
+      "helpful",
+      "thanks"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "use boston data",
+    "tokens": [
+      "use",
+      "boston",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "retrieve cifar10 data",
+    "tokens": [
+      "retrieve",
+      "cifar10",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "get boston dataset from kaggle",
+    "tokens": [
+      "get",
+      "boston",
+      "dataset",
+      "from",
+      "kaggle"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "use iris data",
+    "tokens": [
+      "use",
+      "iris",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good morning",
+    "tokens": [
+      "good",
+      "morning"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "export model",
+    "tokens": [
+      "export",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "weather in Sydney today",
+    "tokens": [
+      "weather",
+      "in",
+      "Sydney",
+      "today"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "current status",
+    "tokens": [
+      "current",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "countdown for 15 minutes",
+    "tokens": [
+      "countdown",
+      "for",
+      "15",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "execute",
+    "tokens": [
+      "execute"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "stop the training",
+    "tokens": [
+      "stop",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "kill training",
+    "tokens": [
+      "kill",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "bye bye",
+    "tokens": [
+      "bye",
+      "bye"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Tokyo",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Tokyo"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "sup",
+    "tokens": [
+      "sup"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load me the cifar10 dataset",
+    "tokens": [
+      "load",
+      "me",
+      "the",
+      "cifar10",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "kaggle competitions",
+    "tokens": [
+      "kaggle",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "current status",
+    "tokens": [
+      "current",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "what is up",
+    "tokens": [
+      "what",
+      "is",
+      "up"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "check status",
+    "tokens": [
+      "check",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load the notebook",
+    "tokens": [
+      "load",
+      "the",
+      "notebook"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "check timer",
+    "tokens": [
+      "check",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "give me the results",
+    "tokens": [
+      "give",
+      "me",
+      "the",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "show status",
+    "tokens": [
+      "show",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "change lr to 5e-5",
+    "tokens": [
+      "change",
+      "lr",
+      "to",
+      "5e-5"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "change lr to 0.01",
+    "tokens": [
+      "change",
+      "lr",
+      "to",
+      "0.01"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "stop the microphone",
+    "tokens": [
+      "stop",
+      "the",
+      "microphone"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "change batch size to 32",
+    "tokens": [
+      "change",
+      "batch",
+      "size",
+      "to",
+      "32"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "analyze dataset",
+    "tokens": [
+      "analyze",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "start a 1 hour timer",
+    "tokens": [
+      "start",
+      "a",
+      "1",
+      "hour",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "update learning rate to 5e-5",
+    "tokens": [
+      "update",
+      "learning",
+      "rate",
+      "to",
+      "5e-5"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "talk later",
+    "tokens": [
+      "talk",
+      "later"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "set model to logistic regression",
+    "tokens": [
+      "set",
+      "model",
+      "to",
+      "logistic",
+      "regression"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "find competitions",
+    "tokens": [
+      "find",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "update batch size to 16",
+    "tokens": [
+      "update",
+      "batch",
+      "size",
+      "to",
+      "16"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "countdown for 3 minutes",
+    "tokens": [
+      "countdown",
+      "for",
+      "3",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "search for sentiment analysis dataset",
+    "tokens": [
+      "search",
+      "for",
+      "sentiment",
+      "analysis",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "go to sleep",
+    "tokens": [
+      "go",
+      "to",
+      "sleep"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "pardon",
+    "tokens": [
+      "pardon"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "put training on hold",
+    "tokens": [
+      "put",
+      "training",
+      "on",
+      "hold"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "launch training",
+    "tokens": [
+      "launch",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "suggest me a model",
+    "tokens": [
+      "suggest",
+      "me",
+      "a",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "show timer",
+    "tokens": [
+      "show",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "stop timer",
+    "tokens": [
+      "stop",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "current status",
+    "tokens": [
+      "current",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "forecast for Ottawa tomorrow",
+    "tokens": [
+      "forecast",
+      "for",
+      "Ottawa",
+      "tomorrow"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "train with mlp for training",
+    "tokens": [
+      "train",
+      "with",
+      "mlp",
+      "for",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "go standby",
+    "tokens": [
+      "go",
+      "standby"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "unpause training",
+    "tokens": [
+      "unpause",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "current accuracy",
+    "tokens": [
+      "current",
+      "accuracy"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "stop training temporarily",
+    "tokens": [
+      "stop",
+      "training",
+      "temporarily"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "look for stock prediction",
+    "tokens": [
+      "look",
+      "for",
+      "stock",
+      "prediction"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "catch you later",
+    "tokens": [
+      "catch",
+      "you",
+      "later"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "set a timer for 1 hour",
+    "tokens": [
+      "set",
+      "a",
+      "timer",
+      "for",
+      "1",
+      "hour"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "pause listening",
+    "tokens": [
+      "pause",
+      "listening"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "what model do you recommend",
+    "tokens": [
+      "what",
+      "model",
+      "do",
+      "you",
+      "recommend"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "show competitions",
+    "tokens": [
+      "show",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "stop training",
+    "tokens": [
+      "stop",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "launch training",
+    "tokens": [
+      "launch",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "launch training",
+    "tokens": [
+      "launch",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "continue the training",
+    "tokens": [
+      "continue",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "stop training temporarily",
+    "tokens": [
+      "stop",
+      "training",
+      "temporarily"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "display results",
+    "tokens": [
+      "display",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "give me the results",
+    "tokens": [
+      "give",
+      "me",
+      "the",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Ottawa",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Ottawa"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "goodbye",
+    "tokens": [
+      "goodbye"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "run the code",
+    "tokens": [
+      "run",
+      "the",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "analyze dataset",
+    "tokens": [
+      "analyze",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good evening",
+    "tokens": [
+      "good",
+      "evening"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "select logistic regression",
+    "tokens": [
+      "select",
+      "logistic",
+      "regression"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "unpause training",
+    "tokens": [
+      "unpause",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "hi",
+    "tokens": [
+      "hi"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "change epochs to 30",
+    "tokens": [
+      "change",
+      "epochs",
+      "to",
+      "30"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "sup",
+    "tokens": [
+      "sup"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "continue the training",
+    "tokens": [
+      "continue",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "list competitions",
+    "tokens": [
+      "list",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "show help",
+    "tokens": [
+      "show",
+      "help"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "stop training temporarily",
+    "tokens": [
+      "stop",
+      "training",
+      "temporarily"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load the notebook",
+    "tokens": [
+      "load",
+      "the",
+      "notebook"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set lr = 0.1",
+    "tokens": [
+      "set",
+      "lr",
+      "=",
+      "0.1"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "apply cnn model",
+    "tokens": [
+      "apply",
+      "cnn",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "bye bye",
+    "tokens": [
+      "bye",
+      "bye"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "analyze dataset",
+    "tokens": [
+      "analyze",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "preprocess data",
+    "tokens": [
+      "preprocess",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set lr = 0.0001",
+    "tokens": [
+      "set",
+      "lr",
+      "=",
+      "0.0001"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "unpause training",
+    "tokens": [
+      "unpause",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "suggest a model",
+    "tokens": [
+      "suggest",
+      "a",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "show code",
+    "tokens": [
+      "show",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "try resnet",
+    "tokens": [
+      "try",
+      "resnet"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "perfect thanks",
+    "tokens": [
+      "perfect",
+      "thanks"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "i appreciate it",
+    "tokens": [
+      "i",
+      "appreciate",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "clear timer",
+    "tokens": [
+      "clear",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "show me results",
+    "tokens": [
+      "show",
+      "me",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "mute",
+    "tokens": [
+      "mute"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "morning",
+    "tokens": [
+      "morning"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "update batch size to 128",
+    "tokens": [
+      "update",
+      "batch",
+      "size",
+      "to",
+      "128"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "keep going",
+    "tokens": [
+      "keep",
+      "going"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "what are good hyperparameters",
+    "tokens": [
+      "what",
+      "are",
+      "good",
+      "hyperparameters"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load cifar10 dataset",
+    "tokens": [
+      "load",
+      "cifar10",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "show results",
+    "tokens": [
+      "show",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "please walk the dog",
+    "tokens": [
+      "please",
+      "walk",
+      "the",
+      "dog"
+    ],
+    "slot_labels": [
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "thanks",
+    "tokens": [
+      "thanks"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "batch size 64",
+    "tokens": [
+      "batch",
+      "size",
+      "64"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "run it",
+    "tokens": [
+      "run",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "talk later",
+    "tokens": [
+      "talk",
+      "later"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "run experiment",
+    "tokens": [
+      "run",
+      "experiment"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Sydney",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Sydney"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "thanks a lot",
+    "tokens": [
+      "thanks",
+      "a",
+      "lot"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it fog in Toronto",
+    "tokens": [
+      "does",
+      "it",
+      "fog",
+      "in",
+      "Toronto"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "try xgboost model",
+    "tokens": [
+      "try",
+      "xgboost",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "farewell",
+    "tokens": [
+      "farewell"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "forecast for Toronto today",
+    "tokens": [
+      "forecast",
+      "for",
+      "Toronto",
+      "today"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "call my mom",
+    "tokens": [
+      "call",
+      "my",
+      "mom"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it storm in Sydney",
+    "tokens": [
+      "does",
+      "it",
+      "storm",
+      "in",
+      "Sydney"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "apply random forest for training",
+    "tokens": [
+      "apply",
+      "random",
+      "forest",
+      "for",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set lr = 5e-5",
+    "tokens": [
+      "set",
+      "lr",
+      "=",
+      "5e-5"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "hold training",
+    "tokens": [
+      "hold",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "tell results",
+    "tokens": [
+      "tell",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "use batch size 16",
+    "tokens": [
+      "use",
+      "batch",
+      "size",
+      "16"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "could you do shopping",
+    "tokens": [
+      "could",
+      "you",
+      "do",
+      "shopping"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set lr = 0.05",
+    "tokens": [
+      "set",
+      "lr",
+      "=",
+      "0.05"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "begin training",
+    "tokens": [
+      "begin",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Paris",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Paris"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "use batch size 128",
+    "tokens": [
+      "use",
+      "batch",
+      "size",
+      "128"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Berlin tomorrow",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Berlin",
+      "tomorrow"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good morning",
+    "tokens": [
+      "good",
+      "morning"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "apply cnn model",
+    "tokens": [
+      "apply",
+      "cnn",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "cancel training",
+    "tokens": [
+      "cancel",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "please make coffee",
+    "tokens": [
+      "please",
+      "make",
+      "coffee"
+    ],
+    "slot_labels": [
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "continue training",
+    "tokens": [
+      "continue",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "hold training",
+    "tokens": [
+      "hold",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "goodbye",
+    "tokens": [
+      "goodbye"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "countdown for 45 minutes",
+    "tokens": [
+      "countdown",
+      "for",
+      "45",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "open cifar10 dataset",
+    "tokens": [
+      "open",
+      "cifar10",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "turn on the lights",
+    "tokens": [
+      "turn",
+      "on",
+      "the",
+      "lights"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "catch you later",
+    "tokens": [
+      "catch",
+      "you",
+      "later"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "timer for pasta for 45 minutes",
+    "tokens": [
+      "timer",
+      "for",
+      "pasta",
+      "for",
+      "45",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "training progress",
+    "tokens": [
+      "training",
+      "progress"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "use batch size 32",
+    "tokens": [
+      "use",
+      "batch",
+      "size",
+      "32"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "start training now",
+    "tokens": [
+      "start",
+      "training",
+      "now"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "suggest a model",
+    "tokens": [
+      "suggest",
+      "a",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "continue training",
+    "tokens": [
+      "continue",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "train with random forest model",
+    "tokens": [
+      "train",
+      "with",
+      "random",
+      "forest",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "could you walk the dog",
+    "tokens": [
+      "could",
+      "you",
+      "walk",
+      "the",
+      "dog"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "timer 5 minutes",
+    "tokens": [
+      "timer",
+      "5",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "generate code",
+    "tokens": [
+      "generate",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "timer status",
+    "tokens": [
+      "timer",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "set the number of epochs to 50",
+    "tokens": [
+      "set",
+      "the",
+      "number",
+      "of",
+      "epochs",
+      "to",
+      "50"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "set the number of epochs to 10",
+    "tokens": [
+      "set",
+      "the",
+      "number",
+      "of",
+      "epochs",
+      "to",
+      "10"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "launch training",
+    "tokens": [
+      "launch",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "what model should i use",
+    "tokens": [
+      "what",
+      "model",
+      "should",
+      "i",
+      "use"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "could you turn on the lights",
+    "tokens": [
+      "could",
+      "you",
+      "turn",
+      "on",
+      "the",
+      "lights"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "end training",
+    "tokens": [
+      "end",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "download weights",
+    "tokens": [
+      "download",
+      "weights"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "awesome thank you",
+    "tokens": [
+      "awesome",
+      "thank",
+      "you"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "talk later",
+    "tokens": [
+      "talk",
+      "later"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "hello",
+    "tokens": [
+      "hello"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "epochs 50",
+    "tokens": [
+      "epochs",
+      "50"
+    ],
+    "slot_labels": [
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "pardon",
+    "tokens": [
+      "pardon"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "get runnable code",
+    "tokens": [
+      "get",
+      "runnable",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "i want lr 0.01",
+    "tokens": [
+      "i",
+      "want",
+      "lr",
+      "0.01"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "use the iris",
+    "tokens": [
+      "use",
+      "the",
+      "iris"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it snow in Tokyo",
+    "tokens": [
+      "does",
+      "it",
+      "snow",
+      "in",
+      "Tokyo"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load the titanic",
+    "tokens": [
+      "load",
+      "the",
+      "titanic"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "run training",
+    "tokens": [
+      "run",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load corresponding code",
+    "tokens": [
+      "load",
+      "corresponding",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "suggest me a model",
+    "tokens": [
+      "suggest",
+      "me",
+      "a",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "show training status",
+    "tokens": [
+      "show",
+      "training",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "show me competitions",
+    "tokens": [
+      "show",
+      "me",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "run xgboost",
+    "tokens": [
+      "run",
+      "xgboost"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load the titanic dataset",
+    "tokens": [
+      "load",
+      "the",
+      "titanic",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "pause listening",
+    "tokens": [
+      "pause",
+      "listening"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "what is the timer at",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "timer",
+      "at"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "list commands",
+    "tokens": [
+      "list",
+      "commands"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "what is the timer at",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "timer",
+      "at"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "save the model",
+    "tokens": [
+      "save",
+      "the",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "timer for workout for 3 minutes",
+    "tokens": [
+      "timer",
+      "for",
+      "workout",
+      "for",
+      "3",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it fog in Ottawa tomorrow",
+    "tokens": [
+      "does",
+      "it",
+      "fog",
+      "in",
+      "Ottawa",
+      "tomorrow"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "launch training",
+    "tokens": [
+      "launch",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "how much time is left",
+    "tokens": [
+      "how",
+      "much",
+      "time",
+      "is",
+      "left"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "show timer",
+    "tokens": [
+      "show",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "many thanks",
+    "tokens": [
+      "many",
+      "thanks"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "what do you support",
+    "tokens": [
+      "what",
+      "do",
+      "you",
+      "support"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "what did you say",
+    "tokens": [
+      "what",
+      "did",
+      "you",
+      "say"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "fix missing data",
+    "tokens": [
+      "fix",
+      "missing",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "come again",
+    "tokens": [
+      "come",
+      "again"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "get mnist dataset from kaggle",
+    "tokens": [
+      "get",
+      "mnist",
+      "dataset",
+      "from",
+      "kaggle"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "find dataset stock prediction",
+    "tokens": [
+      "find",
+      "dataset",
+      "stock",
+      "prediction"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "play music",
+    "tokens": [
+      "play",
+      "music"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "greetings",
+    "tokens": [
+      "greetings"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "epochs 30",
+    "tokens": [
+      "epochs",
+      "30"
+    ],
+    "slot_labels": [
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "clean dataset",
+    "tokens": [
+      "clean",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "look for image classification",
+    "tokens": [
+      "look",
+      "for",
+      "image",
+      "classification"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "training progress",
+    "tokens": [
+      "training",
+      "progress"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "talk later",
+    "tokens": [
+      "talk",
+      "later"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "what is the accuracy",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "accuracy"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "countdown for 15 minutes",
+    "tokens": [
+      "countdown",
+      "for",
+      "15",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "cancel timer",
+    "tokens": [
+      "cancel",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "check status",
+    "tokens": [
+      "check",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it storm in Tokyo",
+    "tokens": [
+      "does",
+      "it",
+      "storm",
+      "in",
+      "Tokyo"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "good night",
+    "tokens": [
+      "good",
+      "night"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "clean the data",
+    "tokens": [
+      "clean",
+      "the",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "export model",
+    "tokens": [
+      "export",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "run experiment",
+    "tokens": [
+      "run",
+      "experiment"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "run resnet model",
+    "tokens": [
+      "run",
+      "resnet",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "continue training",
+    "tokens": [
+      "continue",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "show me competitions",
+    "tokens": [
+      "show",
+      "me",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it cloudy in London",
+    "tokens": [
+      "does",
+      "it",
+      "cloudy",
+      "in",
+      "London"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "suggest parameters",
+    "tokens": [
+      "suggest",
+      "parameters"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "suggest parameters",
+    "tokens": [
+      "suggest",
+      "parameters"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "timer for meeting for 2 minutes",
+    "tokens": [
+      "timer",
+      "for",
+      "meeting",
+      "for",
+      "2",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "download weights",
+    "tokens": [
+      "download",
+      "weights"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "check timer",
+    "tokens": [
+      "check",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "repeat",
+    "tokens": [
+      "repeat"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "get the code",
+    "tokens": [
+      "get",
+      "the",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "how much time is left",
+    "tokens": [
+      "how",
+      "much",
+      "time",
+      "is",
+      "left"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good afternoon",
+    "tokens": [
+      "good",
+      "afternoon"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "clear timer",
+    "tokens": [
+      "clear",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "clear timer",
+    "tokens": [
+      "clear",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "how accurate is the model",
+    "tokens": [
+      "how",
+      "accurate",
+      "is",
+      "the",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "alarm for 45 minutes",
+    "tokens": [
+      "alarm",
+      "for",
+      "45",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Tokyo",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Tokyo"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "stop the training",
+    "tokens": [
+      "stop",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "set the number of epochs to 10",
+    "tokens": [
+      "set",
+      "the",
+      "number",
+      "of",
+      "epochs",
+      "to",
+      "10"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Toronto",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Toronto"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "rest",
+    "tokens": [
+      "rest"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "look for sentiment analysis",
+    "tokens": [
+      "look",
+      "for",
+      "sentiment",
+      "analysis"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "get the code",
+    "tokens": [
+      "get",
+      "the",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "thanks",
+    "tokens": [
+      "thanks"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "good night",
+    "tokens": [
+      "good",
+      "night"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "come again",
+    "tokens": [
+      "come",
+      "again"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "list commands",
+    "tokens": [
+      "list",
+      "commands"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "cancel timer",
+    "tokens": [
+      "cancel",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "set a timer for 2 minutes",
+    "tokens": [
+      "set",
+      "a",
+      "timer",
+      "for",
+      "2",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "begin training",
+    "tokens": [
+      "begin",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "stop training",
+    "tokens": [
+      "stop",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load the mnist dataset from kaggle",
+    "tokens": [
+      "load",
+      "the",
+      "mnist",
+      "dataset",
+      "from",
+      "kaggle"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-DATASET_NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "clear timer",
+    "tokens": [
+      "clear",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "set a meeting timer for 1 hour",
+    "tokens": [
+      "set",
+      "a",
+      "meeting",
+      "timer",
+      "for",
+      "1",
+      "hour"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "batch 32",
+    "tokens": [
+      "batch",
+      "32"
+    ],
+    "slot_labels": [
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "set the number of epochs to 15",
+    "tokens": [
+      "set",
+      "the",
+      "number",
+      "of",
+      "epochs",
+      "to",
+      "15"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "which model is best",
+    "tokens": [
+      "which",
+      "model",
+      "is",
+      "best"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "can you buy groceries",
+    "tokens": [
+      "can",
+      "you",
+      "buy",
+      "groceries"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "set the number of epochs to 15",
+    "tokens": [
+      "set",
+      "the",
+      "number",
+      "of",
+      "epochs",
+      "to",
+      "15"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "appreciate it",
+    "tokens": [
+      "appreciate",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it storm in Toronto",
+    "tokens": [
+      "does",
+      "it",
+      "storm",
+      "in",
+      "Toronto"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "can you repeat that",
+    "tokens": [
+      "can",
+      "you",
+      "repeat",
+      "that"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "retrieve diabetes data",
+    "tokens": [
+      "retrieve",
+      "diabetes",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "batch size 16",
+    "tokens": [
+      "batch",
+      "size",
+      "16"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "current accuracy",
+    "tokens": [
+      "current",
+      "accuracy"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set the learning rate to 0.001",
+    "tokens": [
+      "set",
+      "the",
+      "learning",
+      "rate",
+      "to",
+      "0.001"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "alarm for 10 minutes",
+    "tokens": [
+      "alarm",
+      "for",
+      "10",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "what is the accuracy",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "accuracy"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "timer for meditation for 3 minutes",
+    "tokens": [
+      "timer",
+      "for",
+      "meditation",
+      "for",
+      "3",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "tell me the results",
+    "tokens": [
+      "tell",
+      "me",
+      "the",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "countdown for 1 hour",
+    "tokens": [
+      "countdown",
+      "for",
+      "1",
+      "hour"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "hold training",
+    "tokens": [
+      "hold",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "cancel timer",
+    "tokens": [
+      "cancel",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "sleep mode",
+    "tokens": [
+      "sleep",
+      "mode"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "morning",
+    "tokens": [
+      "morning"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "look for house prices",
+    "tokens": [
+      "look",
+      "for",
+      "house",
+      "prices"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load notebook",
+    "tokens": [
+      "load",
+      "notebook"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "retrieve titanic dataset",
+    "tokens": [
+      "retrieve",
+      "titanic",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "be quiet",
+    "tokens": [
+      "be",
+      "quiet"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "what do you support",
+    "tokens": [
+      "what",
+      "do",
+      "you",
+      "support"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "hi",
+    "tokens": [
+      "hi"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it fog in Montreal",
+    "tokens": [
+      "does",
+      "it",
+      "fog",
+      "in",
+      "Montreal"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "list competitions",
+    "tokens": [
+      "list",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "repeat",
+    "tokens": [
+      "repeat"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "tell results",
+    "tokens": [
+      "tell",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "go to sleep",
+    "tokens": [
+      "go",
+      "to",
+      "sleep"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "switch to logistic regression for training",
+    "tokens": [
+      "switch",
+      "to",
+      "logistic",
+      "regression",
+      "for",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "change epochs to 50",
+    "tokens": [
+      "change",
+      "epochs",
+      "to",
+      "50"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "run it",
+    "tokens": [
+      "run",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "turn on the lights",
+    "tokens": [
+      "turn",
+      "on",
+      "the",
+      "lights"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "put training on hold",
+    "tokens": [
+      "put",
+      "training",
+      "on",
+      "hold"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "what are the results",
+    "tokens": [
+      "what",
+      "are",
+      "the",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "fetch titanic data",
+    "tokens": [
+      "fetch",
+      "titanic",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "clean dataset",
+    "tokens": [
+      "clean",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "halt training",
+    "tokens": [
+      "halt",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "batch size 256",
+    "tokens": [
+      "batch",
+      "size",
+      "256"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "put training on hold",
+    "tokens": [
+      "put",
+      "training",
+      "on",
+      "hold"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "does it snow in New York",
+    "tokens": [
+      "does",
+      "it",
+      "snow",
+      "in",
+      "New",
+      "York"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION",
+      "I-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "kaggle competitions",
+    "tokens": [
+      "kaggle",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "retrieve titanic dataset",
+    "tokens": [
+      "retrieve",
+      "titanic",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "is it sunnyy in Toronto today",
+    "tokens": [
+      "is",
+      "it",
+      "sunnyy",
+      "in",
+      "Toronto",
+      "today"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good morning",
+    "tokens": [
+      "good",
+      "morning"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "recommend hyperparameters",
+    "tokens": [
+      "recommend",
+      "hyperparameters"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "start a 15 minutes timer",
+    "tokens": [
+      "start",
+      "a",
+      "15",
+      "minutes",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "train with logistic regression as my model",
+    "tokens": [
+      "train",
+      "with",
+      "logistic",
+      "regression",
+      "as",
+      "my",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "look for stock prediction",
+    "tokens": [
+      "look",
+      "for",
+      "stock",
+      "prediction"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "execute the experiment",
+    "tokens": [
+      "execute",
+      "the",
+      "experiment"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good evening",
+    "tokens": [
+      "good",
+      "evening"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "use the iris",
+    "tokens": [
+      "use",
+      "the",
+      "iris"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set lr = 0.05",
+    "tokens": [
+      "set",
+      "lr",
+      "=",
+      "0.05"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "stop the training",
+    "tokens": [
+      "stop",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "hello",
+    "tokens": [
+      "hello"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "kill training",
+    "tokens": [
+      "kill",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "use 0.05 for lr",
+    "tokens": [
+      "use",
+      "0.05",
+      "for",
+      "lr"
+    ],
+    "slot_labels": [
+      "O",
+      "B-LEARNING_RATE",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "take care",
+    "tokens": [
+      "take",
+      "care"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "cancel timer",
+    "tokens": [
+      "cancel",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "timer for workout for 5 minutes",
+    "tokens": [
+      "timer",
+      "for",
+      "workout",
+      "for",
+      "5",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "is it stormy in Toronto tomorrow",
+    "tokens": [
+      "is",
+      "it",
+      "stormy",
+      "in",
+      "Toronto",
+      "tomorrow"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "thanks",
+    "tokens": [
+      "thanks"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "kick off training",
+    "tokens": [
+      "kick",
+      "off",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "play music",
+    "tokens": [
+      "play",
+      "music"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "import iris dataset from kaggle",
+    "tokens": [
+      "import",
+      "iris",
+      "dataset",
+      "from",
+      "kaggle"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "select random forest",
+    "tokens": [
+      "select",
+      "random",
+      "forest"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "use mnist data",
+    "tokens": [
+      "use",
+      "mnist",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "countdown for 45 minutes",
+    "tokens": [
+      "countdown",
+      "for",
+      "45",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good afternoon",
+    "tokens": [
+      "good",
+      "afternoon"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "howdy",
+    "tokens": [
+      "howdy"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "use batch size 256",
+    "tokens": [
+      "use",
+      "batch",
+      "size",
+      "256"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "search_dataset",
+    "text": "search dataset image classification",
+    "tokens": [
+      "search",
+      "dataset",
+      "image",
+      "classification"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-QUERY",
+      "I-QUERY"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "what can you do",
+    "tokens": [
+      "what",
+      "can",
+      "you",
+      "do"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "use the wine",
+    "tokens": [
+      "use",
+      "the",
+      "wine"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "see you later",
+    "tokens": [
+      "see",
+      "you",
+      "later"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "can you buy groceries",
+    "tokens": [
+      "can",
+      "you",
+      "buy",
+      "groceries"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "show accuracy",
+    "tokens": [
+      "show",
+      "accuracy"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "update learning rate to 0.01",
+    "tokens": [
+      "update",
+      "learning",
+      "rate",
+      "to",
+      "0.01"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "show_status",
+    "text": "what is the status",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "status"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load me the wine data",
+    "tokens": [
+      "load",
+      "me",
+      "the",
+      "wine",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "run training",
+    "tokens": [
+      "run",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "generate code",
+    "tokens": [
+      "generate",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "buy tickets",
+    "tokens": [
+      "buy",
+      "tickets"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "awesome thank you",
+    "tokens": [
+      "awesome",
+      "thank",
+      "you"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "order my pizza",
+    "tokens": [
+      "order",
+      "my",
+      "pizza"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load corresponding code",
+    "tokens": [
+      "load",
+      "corresponding",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "stop timer",
+    "tokens": [
+      "stop",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "download_weights",
+    "text": "download the model weights",
+    "tokens": [
+      "download",
+      "the",
+      "model",
+      "weights"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "switch to random forest",
+    "tokens": [
+      "switch",
+      "to",
+      "random",
+      "forest"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "I-MODEL_NAME"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "run code",
+    "tokens": [
+      "run",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "fetch diabetes",
+    "tokens": [
+      "fetch",
+      "diabetes"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "make my coffee",
+    "tokens": [
+      "make",
+      "my",
+      "coffee"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "pardon",
+    "tokens": [
+      "pardon"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "start training",
+    "tokens": [
+      "start",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "learning rate 0.05",
+    "tokens": [
+      "learning",
+      "rate",
+      "0.05"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "clean the dataset",
+    "tokens": [
+      "clean",
+      "the",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "update batch size to 256",
+    "tokens": [
+      "update",
+      "batch",
+      "size",
+      "to",
+      "256"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "list competitions",
+    "tokens": [
+      "list",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "list commands",
+    "tokens": [
+      "list",
+      "commands"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "resume_training",
+    "text": "resume training",
+    "tokens": [
+      "resume",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "update batch size to 16",
+    "tokens": [
+      "update",
+      "batch",
+      "size",
+      "to",
+      "16"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "run xgboost",
+    "tokens": [
+      "run",
+      "xgboost"
+    ],
+    "slot_labels": [
+      "O",
+      "B-MODEL_NAME"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good evening",
+    "tokens": [
+      "good",
+      "evening"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "set learning rate to 5e-5",
+    "tokens": [
+      "set",
+      "learning",
+      "rate",
+      "to",
+      "5e-5"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "show competitions",
+    "tokens": [
+      "show",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "rest",
+    "tokens": [
+      "rest"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "what do you support",
+    "tokens": [
+      "what",
+      "do",
+      "you",
+      "support"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "generate code",
+    "tokens": [
+      "generate",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_model",
+    "text": "what model do you recommend",
+    "tokens": [
+      "what",
+      "model",
+      "do",
+      "you",
+      "recommend"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "check_timer",
+    "text": "show timer",
+    "tokens": [
+      "show",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "perfect thanks",
+    "tokens": [
+      "perfect",
+      "thanks"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "pause the training",
+    "tokens": [
+      "pause",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "set the batch to 128",
+    "tokens": [
+      "set",
+      "the",
+      "batch",
+      "to",
+      "128"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "be quiet",
+    "tokens": [
+      "be",
+      "quiet"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "kick off training",
+    "tokens": [
+      "kick",
+      "off",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "i want 15 epochs",
+    "tokens": [
+      "i",
+      "want",
+      "15",
+      "epochs"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-EPOCHS",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "execute",
+    "tokens": [
+      "execute"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "show_competition",
+    "text": "find competitions",
+    "tokens": [
+      "find",
+      "competitions"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "suggest_hyperparameters",
+    "text": "recommend hyperparameters",
+    "tokens": [
+      "recommend",
+      "hyperparameters"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_code",
+    "text": "load the code",
+    "tokens": [
+      "load",
+      "the",
+      "code"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "kill training",
+    "tokens": [
+      "kill",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "show help",
+    "tokens": [
+      "show",
+      "help"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "preprocess data",
+    "tokens": [
+      "preprocess",
+      "data"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "is it cloudyy in Tokyo tomorrow",
+    "tokens": [
+      "is",
+      "it",
+      "cloudyy",
+      "in",
+      "Tokyo",
+      "tomorrow"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-WEATHER_CONDITION",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "thanks",
+    "text": "appreciate it",
+    "tokens": [
+      "appreciate",
+      "it"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "show results",
+    "tokens": [
+      "show",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "please book a table",
+    "tokens": [
+      "please",
+      "book",
+      "a",
+      "table"
+    ],
+    "slot_labels": [
+      "O",
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "what did you say",
+    "tokens": [
+      "what",
+      "did",
+      "you",
+      "say"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "good bye",
+    "tokens": [
+      "good",
+      "bye"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "pause the training",
+    "tokens": [
+      "pause",
+      "the",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Berlin today",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Berlin",
+      "today"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION",
+      "B-DATE"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "hold training",
+    "tokens": [
+      "hold",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "out_of_scope",
+    "text": "buy tickets",
+    "tokens": [
+      "buy",
+      "tickets"
+    ],
+    "slot_labels": [
+      "B-ORIGINAL_REQUEST",
+      "I-ORIGINAL_REQUEST"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "kill training",
+    "tokens": [
+      "kill",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "set a meeting timer for 45 minutes",
+    "tokens": [
+      "set",
+      "a",
+      "meeting",
+      "timer",
+      "for",
+      "45",
+      "minutes"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "clean_dataset",
+    "text": "clean dataset",
+    "tokens": [
+      "clean",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "pause_training",
+    "text": "put training on hold",
+    "tokens": [
+      "put",
+      "training",
+      "on",
+      "hold"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "good evening",
+    "tokens": [
+      "good",
+      "evening"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "tell_results",
+    "text": "show me results",
+    "tokens": [
+      "show",
+      "me",
+      "results"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "run_code",
+    "text": "execute the experiment",
+    "tokens": [
+      "execute",
+      "the",
+      "experiment"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "load_dataset",
+    "text": "load breast cancer dataset",
+    "tokens": [
+      "load",
+      "breast",
+      "cancer",
+      "dataset"
+    ],
+    "slot_labels": [
+      "O",
+      "B-DATASET_NAME",
+      "I-DATASET_NAME",
+      "O"
+    ]
+  },
+  {
+    "intent": "sleep_va",
+    "text": "rest",
+    "tokens": [
+      "rest"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "change epochs to 15",
+    "tokens": [
+      "change",
+      "epochs",
+      "to",
+      "15"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "repeat",
+    "text": "pardon",
+    "tokens": [
+      "pardon"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "greetings",
+    "text": "howdy",
+    "tokens": [
+      "howdy"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "set the number of epochs to 50",
+    "tokens": [
+      "set",
+      "the",
+      "number",
+      "of",
+      "epochs",
+      "to",
+      "50"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "set the number of epochs to 50",
+    "tokens": [
+      "set",
+      "the",
+      "number",
+      "of",
+      "epochs",
+      "to",
+      "50"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EPOCHS"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "update batch size to 32",
+    "tokens": [
+      "update",
+      "batch",
+      "size",
+      "to",
+      "32"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "show commands",
+    "tokens": [
+      "show",
+      "commands"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "set a meeting timer for 1 hour",
+    "tokens": [
+      "set",
+      "a",
+      "meeting",
+      "timer",
+      "for",
+      "1",
+      "hour"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-TIMER_NAME",
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "batch size 16",
+    "tokens": [
+      "batch",
+      "size",
+      "16"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "set_timer",
+    "text": "set a timer for 1 hour",
+    "tokens": [
+      "set",
+      "a",
+      "timer",
+      "for",
+      "1",
+      "hour"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TIMER_DURATION",
+      "I-TIMER_DURATION"
+    ]
+  },
+  {
+    "intent": "show_accuracy",
+    "text": "how accurate is the model",
+    "tokens": [
+      "how",
+      "accurate",
+      "is",
+      "the",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "cancel_timer",
+    "text": "cancel the timer",
+    "tokens": [
+      "cancel",
+      "the",
+      "timer"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "list commands",
+    "tokens": [
+      "list",
+      "commands"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "farewell",
+    "text": "goodbye",
+    "tokens": [
+      "goodbye"
+    ],
+    "slot_labels": [
+      "O"
+    ]
+  },
+  {
+    "intent": "get_weather",
+    "text": "what is the weather in Montreal",
+    "tokens": [
+      "what",
+      "is",
+      "the",
+      "weather",
+      "in",
+      "Montreal"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-WEATHER_LOCATION"
+    ]
+  },
+  {
+    "intent": "help",
+    "text": "show commands",
+    "tokens": [
+      "show",
+      "commands"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_learning_rate",
+    "text": "learning rate 0.001",
+    "tokens": [
+      "learning",
+      "rate",
+      "0.001"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-LEARNING_RATE"
+    ]
+  },
+  {
+    "intent": "stop_training",
+    "text": "abort training",
+    "tokens": [
+      "abort",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "select_model",
+    "text": "train with cnn for training",
+    "tokens": [
+      "train",
+      "with",
+      "cnn",
+      "for",
+      "training"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-MODEL_NAME",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "batch size 128",
+    "tokens": [
+      "batch",
+      "size",
+      "128"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "set_batch_size",
+    "text": "update batch size to 8",
+    "tokens": [
+      "update",
+      "batch",
+      "size",
+      "to",
+      "8"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-BATCH_SIZE"
+    ]
+  },
+  {
+    "intent": "start_training",
+    "text": "train the model",
+    "tokens": [
+      "train",
+      "the",
+      "model"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "intent": "set_epochs",
+    "text": "i want 100 epochs",
+    "tokens": [
+      "i",
+      "want",
+      "100",
+      "epochs"
+    ],
+    "slot_labels": [
+      "O",
+      "O",
+      "B-EPOCHS",
+      "O"
+    ]
+  }
+]

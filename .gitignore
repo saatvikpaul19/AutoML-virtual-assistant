@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Models and large binaries (GitHub 100MB limit)
+*.pt
+*.pth
+*.h5
+*.weights
+*.pkl
+*.joblib
+
+# Kaggle Caches & Data
+data/kaggle_cache/
+*.csv
+*.zip
+*.json
+!modules/C_nlu/bert_nlu/data/*.json
+!modules/C_nlu/bert_nlu/labels.json
+
+# Logs
+*.log
+bert_training_log.txt
+test_output.txt
+
+# Artifacts
+artifacts/
+
+# Environments
+.venv
+env/
+venv/
+ENV/
