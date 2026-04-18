@@ -23,7 +23,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # 3. Run the Streamlit demo
-streamlit run app_AB_demo.py
+streamlit run app.py
 ```
 
 ## Running With Docker
