@@ -209,7 +209,8 @@ def detect_intent(text: str) -> str:
             return "get_weather"
 
     if any(k in t for k in ["suggest model", "suggest a model", "model suggestion",
-                             "suggest me a model", "what model", "recommend a model"]):
+                             "suggest me a model", "what model", "recommend a model",
+                             "suggestions for models", "suggest some models", "recommend models"]):
         return "suggest_model"
 
     if any(k in t for k in ["suggest hyperparameters", "suggest parameters", "parameter suggestion",

@@ -69,6 +69,21 @@ def should_fallback(bert_result: dict, text: str = "") -> tuple[bool, str]:
         print(f"[NLU-FALLBACK] [ERR] FALLBACK -> {reason}")
         return True, reason
 
+    # -- Rule 3: Numeric consistency check (Decimal Safety Valve) ----
+    # If BERT extracted '1.0' or '1' but the raw text contains '0.01', '0.001', etc.
+    # BERT often misses the leading '0.' and we want to catch that.
+    if intent == "set_learning_rate" and "learning_rate" in slots:
+        import re
+        bert_val_str = str(slots["learning_rate"])
+        # If BERT got 1.0, 1, 5.0, 5 but the text has something like 0.01 or 0.05
+        if bert_val_str in ["1.0", "1", "5.0", "5", "0.1", "0.5"]:
+            # Look for suspicious decimals in the text that BERT might have missed
+            suspicious = re.findall(r"0\.\d+", text)
+            if suspicious and bert_val_str.endswith(suspicious[0].split('.')[-1]):
+                reason = f"BERT numeric extraction suspicious: got {bert_val_str} but text contains {suspicious[0]}"
+                print(f"[NLU-FALLBACK] [ERR] FALLBACK -> {reason}")
+                return True, reason
+
     # -- All checks passed -------------------------------------
     print(
         f"[NLU-FALLBACK] [OK] PASS    -- intent={intent!r} conf={conf:.4f} >= {CONFIDENCE_THRESHOLD}"
